@@ -22,3 +22,21 @@ const myFunction=function()
     console.log("Hello World")
 }
 console.log(typeof myFunction);
+
+
+
+//++++++++++++++++++++++++++++++++
+//stack(primitive),Heap(Non-Primitive)
+let myYoutubename="ROBIB"
+let anothername=myYoutubename
+ anothername="rohita"
+ console.log(myYoutubename);
+ console.log(anothername);
+ let userOne={
+    email:"user@google",
+    upi:"user@ybl"
+ }
+ let userTwo= userOne
+ userTwo.email="robi@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
